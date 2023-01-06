@@ -1,12 +1,22 @@
-﻿string Prompt(string message)
+﻿//Метод для ввода строк с клавиатуры
+string PromptString(string message)
 {
     System.Console.WriteLine($"{message} >");
     return Console.ReadLine();
 }
+//Метод для ввода чисел
+int PromptInt(string message)
+{
+    System.Console.WriteLine($"{message} >");
+    return Convert.ToInt32(Console.ReadLine());
+}
 
-string[] arrstr = new string[10];
+//Введите количество строк:
+int LengthOfArray = PromptInt("Введите количество строк: ");
+string[] arrstr = new string[LengthOfArray];
 
+//Формирование стартового массива из сток
 for (int i = 0; i < arrstr.Length; i++)
 {
-    arrstr[i] = Prompt("введите элемент массива");
+    arrstr[i] = PromptString("введите элемент массива: ");
 }
