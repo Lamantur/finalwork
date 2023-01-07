@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\79111\\Documents\\введение\\final\\final.csproj": {}
+    "C:\\Users\\79111\\Documents\\введение\\Final\\final.csproj": {}
   },
   "projects": {
-    "C:\\Users\\79111\\Documents\\введение\\final\\final.csproj": {
+    "C:\\Users\\79111\\Documents\\введение\\Final\\final.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\79111\\Documents\\введение\\final\\final.csproj",
+        "projectUniqueName": "C:\\Users\\79111\\Documents\\введение\\Final\\final.csproj",
         "projectName": "final",
-        "projectPath": "C:\\Users\\79111\\Documents\\введение\\final\\final.csproj",
+        "projectPath": "C:\\Users\\79111\\Documents\\введение\\Final\\final.csproj",
         "packagesPath": "C:\\Users\\79111\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\79111\\Documents\\введение\\final\\obj\\",
+        "outputPath": "C:\\Users\\79111\\Documents\\введение\\Final\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
